@@ -1,0 +1,115 @@
+body {
+  padding-top: 54px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  font-size: 25px;
+  color: #4D4D4D;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #1D5632;
+  font-weight: bold;
+}
+
+p {
+  color: #4D4D4D;
+  line-height: 27px;
+  font-size: 18px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.bg-green {
+  background-color: #1D5632;
+}
+
+.bg-gray {
+  background-color: #F0F0F0;
+}
+
+.bg-header {
+  min-height: 280px;
+  background: url('../images/hero-banner.jpg') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.card {
+  height: 100%;
+}
+
+.titular{
+  font-size: 50px;
+  font-weight: bold;
+  color: #1D5632;
+}
+
+label {
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #A8A8A8;
+}
+
+.info-contacto, .info-contacto p {
+  color: #ffffff;
+  text-align: center;
+  background-color: #EEB72F;
+  padding: 20px;
+}
+
+
+.icono-circulo {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: -50px
+}
+
+.elipse-contacto {
+  color:#FFFFFF;
+  border: 2px solid #EEB72F;
+  border-radius: 50%;
+}
+
+
+.numero-destacado {
+  font-size: 25px;
+  font-weight: bold;
+  display: block;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.circle-cocheria-icon {
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: #E6E7ED;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    background-image: url(../images/icon-cocheria.png);
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+    margin: 0 auto;    
+}
